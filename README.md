@@ -13,20 +13,18 @@ Currently, two official plugins are available:
 
 ## Colors:
 
-| Preview                                             | Code    |
-| --------------------------------------------------- | ------- |
-| <center><div class='preview orange'></div></center> | #D08000 |
-| <center><div class='preview purple'></div></center> | #60099C |
-| <center><div class='preview green'></div></center>  | #167701 |
+| Preview                                                                   | Code    |
+| ------------------------------------------------------------------------- | ------- |
+| <center><img src='https://placehold.co/30x30/D08000/0000/png' /></center> | #D08000 |
+| <center><img src='https://placehold.co/30x30/60099C/0000/png' /></center> | #60099C |
+| <center><img src='https://placehold.co/30x30/167701/0000/png' /></center> | #167701 |
 
 ## Typography:
 
-### Title:
+### Title (Grusskarten Gotisch):
 
-<span class='preview font-title'>THIS IS A PREVIEW TEXT</span>  
-<span class='preview font-title'>this is a preview text</span>
+The title font will be used for making headings and highlight sections. To view the glyphs present on this font family, refer to the [link](https://www.dafont.com/grusskarten-gotisch.charmap).
 
-### Page:
+### Page (Roboto):
 
-<span class='preview font-page'>THIS IS A PREVIEW TEXT</span>  
-<span class='preview font-page'>this is a preview text</span>
+The page font will be used for making generat content sections. To view the glyphs present on this font family, refer to the [link](https://www.dafont.com/roboto.charmap).
