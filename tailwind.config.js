@@ -1,9 +1,15 @@
+import tailwindClipPath from "tailwind-clip-path";
+
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      height: "100dvh"
+    },
   },
-  plugins: [],
-}
-
+  corePlugins: {
+    preflight: false,
+  },
+  plugins: [tailwindClipPath],
+};
