@@ -1,0 +1,24 @@
+@import "../src/assets/css/fonts.css";
+.preview {
+  width: 20px;
+  height: 20px;
+  background-color: var(--bg);
+  border-radius: 5px;
+  &.orange {
+    --bg: #d08000;
+  }
+  &.purple {
+    --bg: #60099c;
+  }
+  &.green {
+    --bg: #167701;
+  }
+  &.font-title {
+    font-family: "GrusskartenGotisch", fantasy;
+    font-size: 3rem;
+  }
+  &.font-page {
+    font-family: "Roboto";
+    font-size: 3rem;
+  }
+}

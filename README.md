@@ -1,31 +1,3 @@
-<style
-  type="text/css">
-  @import 'src/assets/css/fonts.css';
-  .preview {
-    width: 20px;
-    height: 20px;
-    background-color: var(--bg);
-    border-radius: 5px;
-    &.orange {
-      --bg: #D08000
-    }
-    &.purple {
-      --bg: #60099C
-    }
-    &.green {
-      --bg: #167701
-    }
-    &.font-title {
-      font-family: "GrusskartenGotisch", fantasy;
-      font-size: 3rem;
-    }
-    &.font-page {
-      font-family: "Roboto";
-      font-size: 3rem;
-    }
-  }
-</style>
-
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
