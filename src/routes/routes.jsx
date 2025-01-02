@@ -1,10 +1,10 @@
+import ConstructionLayout from "@ui/ConstructionLayout";
 import UnderConstruction from "@pages/UnderConstruction";
-import AppLayout from "@ui/AppLayout";
 import { createBrowserRouter } from "react-router-dom";
 
 const routes = createBrowserRouter([
   {
-    element: <AppLayout />,
+    element: <ConstructionLayout />,
     children: [
       {
         path: "/",
