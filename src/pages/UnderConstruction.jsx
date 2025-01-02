@@ -1,7 +1,11 @@
-import Heading from "@app/ui/Heading";
+import Heading from "@ui/Heading";
 import { motion as m } from "motion/react";
+import { useEffect } from "react";
 
 const UnderConstruction = () => {
+  useEffect(() => {
+    document.title = "Voodoo-Yoodoo Website // Under Construction";
+  }, []);
   return (
     <m.div>
       <Heading className="text-wrap text-center">
