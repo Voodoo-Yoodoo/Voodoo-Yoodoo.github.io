@@ -7,7 +7,7 @@ const routes = createBrowserRouter([
     element: <ConstructionLayout />,
     children: [
       {
-        path: "/",
+        path: "*",
         element: <UnderConstruction />,
       },
     ],
