@@ -7,7 +7,6 @@ const UnderConstruction = () => {
       <Heading className="text-wrap text-center">
         We are mixing ingredients to create a unique experience for you!
       </Heading>
-      <Heading className="text-center">von Schappler</Heading>
     </m.div>
   );
 };
