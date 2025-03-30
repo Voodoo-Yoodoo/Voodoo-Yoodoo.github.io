@@ -7,6 +7,10 @@ const indexRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/",
   component: () => <UnderConstruction />,
+  head: () => ({
+    meta: [{ title: "Voodoo-Yoodoo Website // Under Construction" }],
+    links: { rel: "icon", href: "/img/favicon.png" },
+  }),
 });
 
 export default indexRoute;
