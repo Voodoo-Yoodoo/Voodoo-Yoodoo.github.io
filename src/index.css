@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 body {
-  @apply bg-v-orange;
+  @apply bg-v-orange/50;
   & h1,
   & h2,
   & h3 {
@@ -11,7 +11,7 @@ body {
   & #root {
     @apply flex h-screen flex-col;
     & main {
-      @apply flex-1;
+      @apply grow;
     }
     & footer {
       @apply bg-v-purple text-v-white/75 px-5 py-2.5;
