@@ -1,0 +1,19 @@
+@import "./fonts.css";
+
+@theme {
+  --page: "Roboto", sans-serif;
+  --title: "GrusskartenGotisch", fantasy;
+  --height-screen: 100dvh;
+  --color-v-black: #1b1c1d;
+  --color-v-orange: #d08000;
+  --color-v-purple: #60099c;
+  --color-v-green: #167701;
+  --color-v-white: #ececec;
+  --shadow-v-shadow: 0 0 5px #1b1c1d;
+  --shadow-v-drop-shadow: 0px 3px 2px #1b1c1d;
+}
+
+@theme inline {
+  --font-v-page: var(--page);
+  --font-v-title: var(--title);
+}

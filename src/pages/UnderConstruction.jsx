@@ -1,17 +1,17 @@
+import { Grid } from "@mui/material";
 import Heading from "@ui/Heading";
-import { motion as m } from "motion/react";
-import { useEffect } from "react";
 
 const UnderConstruction = () => {
-  useEffect(() => {
-    document.title = "Voodoo-Yoodoo Website // Under Construction";
-  }, []);
   return (
-    <m.div>
-      <Heading className="text-wrap text-center">
-        We are mixing ingredients to create a unique experience for you!
+    <Grid
+      component="section"
+      className="mx-auto flex h-full w-[80%] items-center justify-center drop-shadow-(--shadow-v-drop-shadow)"
+    >
+      <Heading className="text-v-green text-center text-wrap">
+        We are mixing ingredients to create a{" "}
+        <span className="text-v-purple">unique</span> experience for you!
       </Heading>
-    </m.div>
+    </Grid>
   );
 };
 

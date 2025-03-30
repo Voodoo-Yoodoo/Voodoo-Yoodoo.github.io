@@ -1,27 +1,23 @@
-@import "./assets/css/fonts.css";
-@import "./assets/css/root.css";
+@import "./assets/css/theme.css";
+@import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-  * {
-    margin: 0;
-    padding: 0;
+body {
+  @apply bg-v-orange;
+  & h1,
+  & h2,
+  & h3 {
+    @apply font-v-title text-9xl;
   }
-  h1,
-  h2,
-  h3 {
-    @apply font-title text-voodoo-purple text-6xl font-extralight md:text-8xl;
-  }
-  h2 {
-    @apply text-4xl lg:text-6xl;
-  }
-  h3 {
-    @apply text-2xl lg:text-4xl;
-  }
-  #root {
-    @apply bg-voodoo-orange/60 flex h-screen flex-col items-center justify-center;
+  & #root {
+    @apply flex h-screen flex-col;
+    & main {
+      @apply flex-1;
+    }
+    & footer {
+      @apply bg-v-purple text-v-white/75 px-5 py-2.5;
+      & a {
+        @apply font-bold underline-offset-4 hover:underline;
+      }
+    }
   }
 }
